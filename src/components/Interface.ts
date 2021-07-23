@@ -3,3 +3,10 @@ export interface IClock {
   minute: number;
   seconds: number;
 }
+
+export interface IWeather {
+  name: string;
+  country: string;
+  temp: string;
+  weather: string;
+}
