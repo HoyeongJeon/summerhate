@@ -10,7 +10,9 @@ const App: React.FC = () => {
     <>
       <div className="App">
         <Clock />
-        <Weather />
+        <div className="Weather">
+          <Weather />
+        </div>
         {/* 가장 더운 지역 + 기온 */}
         <Callender />
         <Background />

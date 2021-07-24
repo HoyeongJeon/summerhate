@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { IWeather } from "./Interface";
+import "../Styles/Weather.css";
+import { Clothes } from "./Clothes";
 
 const API = {
   api: "64779c24be2bccf0ecbb74005b638849",
@@ -14,7 +16,6 @@ export const Weather: React.FC = () => {
     temp: "",
     weather: "",
   });
-  const weather_icon = `http://openweathermap.org/img/wn/${weather.weather}@2x.png`;
   const getWeather = (evt: any) => {
     if (evt.key === "Enter") {
       fetch(`${API.url}weather?q=${query}&units=metric&APPID=${API.api}`)
@@ -29,7 +30,7 @@ export const Weather: React.FC = () => {
           setQuery("");
         })
         .catch((error) => {
-          console.log("error");
+          console.log(error);
           setQuery("");
         });
     }
@@ -52,8 +53,8 @@ export const Weather: React.FC = () => {
         {weather.name} {weather.country}
       </h2>
       <h3>{weather.temp}</h3>
-      <div className="Weather__icon">
-        <img src={weather_icon} />
+      <div className="Clothes">
+        {weather.temp ? <Clothes temperature={weather.temp} /> : ""}
       </div>
     </>
   );
