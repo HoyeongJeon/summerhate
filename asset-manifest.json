@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/summerhate/static/css/main.21903486.chunk.css",
+    "main.js": "/summerhate/static/js/main.6c7f1a88.chunk.js",
+    "main.js.map": "/summerhate/static/js/main.6c7f1a88.chunk.js.map",
+    "runtime-main.js": "/summerhate/static/js/runtime-main.d67a6186.js",
+    "runtime-main.js.map": "/summerhate/static/js/runtime-main.d67a6186.js.map",
+    "static/js/2.e0addb72.chunk.js": "/summerhate/static/js/2.e0addb72.chunk.js",
+    "static/js/2.e0addb72.chunk.js.map": "/summerhate/static/js/2.e0addb72.chunk.js.map",
+    "index.html": "/summerhate/index.html",
+    "static/css/main.21903486.chunk.css.map": "/summerhate/static/css/main.21903486.chunk.css.map",
+    "static/js/2.e0addb72.chunk.js.LICENSE.txt": "/summerhate/static/js/2.e0addb72.chunk.js.LICENSE.txt",
+    "static/media/1.00b08728.jpg": "/summerhate/static/media/1.00b08728.jpg",
+    "static/media/2.6592de8c.jpg": "/summerhate/static/media/2.6592de8c.jpg",
+    "static/media/3.5d135c19.jpg": "/summerhate/static/media/3.5d135c19.jpg",
+    "static/media/4.f4a797e3.jpg": "/summerhate/static/media/4.f4a797e3.jpg",
+    "static/media/5.459f34ae.jpg": "/summerhate/static/media/5.459f34ae.jpg",
+    "static/media/6.d143c59f.jpg": "/summerhate/static/media/6.d143c59f.jpg",
+    "static/media/7.dd483593.jpg": "/summerhate/static/media/7.dd483593.jpg",
+    "static/media/8.652e0e91.jpg": "/summerhate/static/media/8.652e0e91.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d67a6186.js",
+    "static/js/2.e0addb72.chunk.js",
+    "static/css/main.21903486.chunk.css",
+    "static/js/main.6c7f1a88.chunk.js"
+  ]
+}
