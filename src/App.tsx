@@ -9,12 +9,12 @@ const App: React.FC = () => {
   return (
     <>
       <div className="App">
+        <Callender />
         <Clock />
         <div className="Weather">
           <Weather />
         </div>
         {/* 가장 더운 지역 + 기온 */}
-        <Callender />
         <Background />
       </div>
     </>
